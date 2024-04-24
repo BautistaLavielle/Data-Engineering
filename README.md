@@ -1,2 +1,3 @@
-# Data-Engineering
-Proyecto de Data Engineering
+# **Proyecto de Data Engineering**
+## **Pipeline de Extracción, Almacenamiento y Procesamiento de Datos**
+En este proyecto, diseñé e implementé un Pipeline en Python utilizando la técnica de **ELT**. Utilicé una variedad de librerías como **requests, sqlalchemy, pandas, os, glob, datetime, configparser, json y pprint**, para realizar extracciones de datos de una **API Rest** (mediante el metodo **GET**), crear **dataframes** con los datos extraidos, almacenar estos dataframes en formato **parquet** en un **Datalake** local implementado en un sistema de archivos (y aplicando en algunos casos algun tipo de partición), para luego leerlos, procesarlos (aplicando agregaciones o alguna lógica de negocio) y almacenarlos en un **Datawarehouse** basado en **PostgreSQL** alojado en la **nube** (en un servidor de Aiven).
